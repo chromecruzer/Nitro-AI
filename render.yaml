@@ -1,0 +1,12 @@
+services:
+  - name: nitro
+    env: node
+    buildCommand: npm run build-nitro
+    startCommand: npm run start-nitro
+    port: 3000
+
+  - name: express
+    env: node
+    buildCommand: npm run build-express
+    startCommand: npm run start-express
+    port: 4000
