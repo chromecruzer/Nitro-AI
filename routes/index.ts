@@ -1,6 +1,6 @@
-export default eventHandler(() => {
-  return { nitro: 'Is Awesome!' }
-})
+// export default eventHandler(() => {
+//   return { nitro: 'Is Awesome!' }
+// })
 
 
 /// Express Server
